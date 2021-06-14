@@ -17,7 +17,7 @@ main {
         line-height: 60px;
     }
 
-    h1, p { width: 45%; }
+    h1, p { @include w-45; }
 
     p { 
         font-size: 19px;
@@ -71,6 +71,23 @@ main {
             }
         }
         &>h2 { padding-bottom: 50px; }
+    }
+
+    .features { 
+        .feedbacks { 
+            background-image: url(/../dist/img/employee-feedback.jpg);
+            padding-left: 50%;
+            background-size: 50%;
+            background-repeat: no-repeat;
+
+            h2 { @include w-45; }
+            p { margin: 25px 0;}
+            a { 
+                display: block; 
+                margin-bottom: 25px;
+            }
+            img { width: 300px; }
+        }
     }
 
 }

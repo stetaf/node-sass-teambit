@@ -120,3 +120,22 @@ main .info .upper p, main .info .bottom p {
 main .info > h2 {
   padding-bottom: 50px;
 }
+main .features .feedbacks {
+  background-image: url(/../dist/img/employee-feedback.jpg);
+  padding-left: 50%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+main .features .feedbacks h2 {
+  width: 45%;
+}
+main .features .feedbacks p {
+  margin: 25px 0;
+}
+main .features .feedbacks a {
+  display: block;
+  margin-bottom: 25px;
+}
+main .features .feedbacks img {
+  width: 300px;
+}

@@ -36,3 +36,6 @@ body {
 @mixin deco-none { 
     text-decoration: none;
 }
+@mixin w-45 {
+    width: 45%;
+}
