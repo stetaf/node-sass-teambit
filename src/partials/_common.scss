@@ -1,0 +1,10 @@
+/* Common */
+@mixin d-flex { 
+    display: flex;
+}
+@mixin a-center { 
+    align-items: center;
+}
+@mixin p-100 { 
+    padding: 0 100px;
+}

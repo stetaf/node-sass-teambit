@@ -1,0 +1,17 @@
+/* Header */ 
+header { 
+    @include p-100;
+}
+nav { 
+    @include d-flex;
+    @include a-center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid $brown;
+    
+    a {
+        font-weight: bold;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+}
