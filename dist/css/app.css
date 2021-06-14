@@ -1,0 +1,19 @@
+/* Vars */
+/* Common */
+/* Header */
+header {
+  padding: 0 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #58402c;
+}
+nav a {
+  font-weight: bold;
+  margin-left: 20px;
+  text-decoration: none;
+}
