@@ -122,21 +122,23 @@ main .info > h2 {
 }
 main .features .feedbacks {
   background-image: url("/../dist/img/employee-feedback.jpg");
+}
+main .features .feedbacks, main .features .reviews {
   padding-left: 50%;
   background-size: 50%;
   background-repeat: no-repeat;
 }
-main .features .feedbacks h2 {
+main .features .feedbacks h2, main .features .reviews h2 {
   width: 45%;
 }
-main .features .feedbacks p {
+main .features .feedbacks p, main .features .reviews p {
   margin: 25px 0;
 }
-main .features .feedbacks a {
+main .features .feedbacks a, main .features .reviews a {
   display: block;
   margin-bottom: 25px;
 }
-main .features .feedbacks img {
+main .features .feedbacks img, main .features .reviews img {
   width: 280px;
 }
 main .features .surveys {
@@ -159,4 +161,8 @@ main .features .surveys a {
 }
 main .features .surveys img {
   width: 280px;
+}
+main .features .reviews {
+  background-image: url("/../dist/img/performance-review.jpg");
+  margin-top: 40px;
 }

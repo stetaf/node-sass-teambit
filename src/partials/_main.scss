@@ -74,8 +74,8 @@ main {
     }
 
     .features { 
-        .feedbacks { 
-            background-image: url('/../dist/img/employee-feedback.jpg');
+        .feedbacks { background-image: url('/../dist/img/employee-feedback.jpg') }
+        .feedbacks, .reviews { 
             padding-left: 50%;
             background-size: 50%;
             background-repeat: no-repeat;
@@ -103,6 +103,10 @@ main {
                 margin-bottom: 25px;
             }
             img { width: 280px; }
+        }
+        .reviews { 
+            background-image: url('/../dist/img/performance-review.jpg'); 
+            margin-top: 40px;
         }
     }
 
