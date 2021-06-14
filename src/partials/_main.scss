@@ -113,4 +113,58 @@ main {
         }
     }
 
+    .join_us { 
+        background-color: $bg_beige;
+        margin-top: 50px;
+        padding: 50px 0;
+        h2 {     
+            font-size: 45px;
+            margin: auto;
+            width: 44%;
+        }
+        .text {
+            @include d-flex;
+            justify-content: center;
+            &>div { 
+                background: white;
+                padding: 20px;
+                border: 1px solid $blue;
+                border-radius: 10px;
+                font-size: 15px;
+                width: 42%;
+                margin: 25px 0;
+                position: relative;
+                .quotes {
+                    position: absolute;
+                    top: -22px;
+                    left: 0;
+                    color: $blue;
+                    font-size: 35px;
+                }
+            }
+            span { 
+                display: block;
+                margin-bottom: 10px;
+            }
+            .staff {
+                @include d-flex;
+                img { margin-right: 15px; }
+                &>div {
+                    display: flex;
+                    line-height: 7px;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+        .sign_up { 
+            width: unset;
+            justify-content: center;
+            
+        }
+        &>a { 
+            @include d-flex;
+            justify-content: center;        
+        }
+    }
 }

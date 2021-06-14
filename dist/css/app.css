@@ -171,3 +171,58 @@ main .features .reviews {
 main .features .value {
   background-image: url("/../dist/img/employee-survey.jpg");
 }
+main .join_us {
+  background-color: #ffe7d2;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+main .join_us h2 {
+  font-size: 45px;
+  margin: auto;
+  width: 44%;
+}
+main .join_us .text {
+  display: flex;
+  justify-content: center;
+}
+main .join_us .text > div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #2c4792;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 42%;
+  margin: 25px 0;
+  position: relative;
+}
+main .join_us .text > div .quotes {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  color: #2c4792;
+  font-size: 35px;
+}
+main .join_us .text span {
+  display: block;
+  margin-bottom: 10px;
+}
+main .join_us .text .staff {
+  display: flex;
+}
+main .join_us .text .staff img {
+  margin-right: 15px;
+}
+main .join_us .text .staff > div {
+  display: flex;
+  line-height: 7px;
+  flex-direction: column;
+  justify-content: center;
+}
+main .join_us .sign_up {
+  width: unset;
+  justify-content: center;
+}
+main .join_us > a {
+  display: flex;
+  justify-content: center;
+}
