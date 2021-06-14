@@ -121,7 +121,7 @@ main .info > h2 {
   padding-bottom: 50px;
 }
 main .features .feedbacks {
-  background-image: url(/../dist/img/employee-feedback.jpg);
+  background-image: url("/../dist/img/employee-feedback.jpg");
   padding-left: 50%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -137,5 +137,26 @@ main .features .feedbacks a {
   margin-bottom: 25px;
 }
 main .features .feedbacks img {
-  width: 300px;
+  width: 280px;
+}
+main .features .surveys {
+  background-image: url("/../dist/img/employee-survey.jpg");
+  padding-left: 25%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  margin-top: 40px;
+}
+main .features .surveys h2, main .features .surveys p {
+  width: 26%;
+}
+main .features .surveys p {
+  margin: 25px 0;
+}
+main .features .surveys a {
+  display: block;
+  margin-bottom: 25px;
+}
+main .features .surveys img {
+  width: 280px;
 }

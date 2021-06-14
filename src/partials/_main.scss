@@ -75,7 +75,7 @@ main {
 
     .features { 
         .feedbacks { 
-            background-image: url(/../dist/img/employee-feedback.jpg);
+            background-image: url('/../dist/img/employee-feedback.jpg');
             padding-left: 50%;
             background-size: 50%;
             background-repeat: no-repeat;
@@ -86,7 +86,23 @@ main {
                 display: block; 
                 margin-bottom: 25px;
             }
-            img { width: 300px; }
+            img { width: 280px; }
+        }
+        .surveys { 
+            background-image: url('/../dist/img/employee-survey.jpg');
+            padding-left: 25%;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: 100% 0;
+            margin-top: 40px;
+
+            h2, p { width: 26%; }
+            p { margin: 25px 0;}
+            a { 
+                display: block; 
+                margin-bottom: 25px;
+            }
+            img { width: 280px; }
         }
     }
 
