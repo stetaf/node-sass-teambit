@@ -77,8 +77,9 @@ main {
         .feedbacks { background-image: url('/../dist/img/employee-feedback.jpg') }
         .feedbacks, .reviews { 
             padding-left: 50%;
-            background-size: 50%;
+            background-size: 36%;
             background-repeat: no-repeat;
+            background-position: 20%;
 
             h2 { @include w-45; }
             p { margin: 25px 0;}
@@ -91,9 +92,9 @@ main {
         .surveys { background-image: url('/../dist/img/employee-survey.jpg'); }
         .surveys, .value { 
             padding-left: 25%;
-            background-size: 50%;
+            background-size: 36%;
             background-repeat: no-repeat;
-            background-position: 100% 0;
+            background-position: 75% 0;
             margin-top: 40px;
 
             h2, p { width: 30%; }

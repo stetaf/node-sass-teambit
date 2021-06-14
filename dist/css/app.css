@@ -125,8 +125,9 @@ main .features .feedbacks {
 }
 main .features .feedbacks, main .features .reviews {
   padding-left: 50%;
-  background-size: 50%;
+  background-size: 36%;
   background-repeat: no-repeat;
+  background-position: 20%;
 }
 main .features .feedbacks h2, main .features .reviews h2 {
   width: 45%;
@@ -146,9 +147,9 @@ main .features .surveys {
 }
 main .features .surveys, main .features .value {
   padding-left: 25%;
-  background-size: 50%;
+  background-size: 36%;
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 75% 0;
   margin-top: 40px;
 }
 main .features .surveys h2, main .features .surveys p, main .features .value h2, main .features .value p {
