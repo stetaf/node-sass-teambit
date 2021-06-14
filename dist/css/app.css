@@ -226,3 +226,45 @@ main .join_us > a {
   display: flex;
   justify-content: center;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #58402c;
+}
+footer div {
+  margin: 0 30px;
+}
+footer div h4 {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+footer div ul {
+  list-style: none;
+}
+footer div ul li {
+  margin-bottom: 10px;
+}
+footer .site_info {
+  display: flex;
+  align-items: flex-start;
+  width: 275px;
+}
+footer .site_info p {
+  font-size: 17px;
+  margin-left: 17px;
+  font-weight: bold;
+}
+footer .site_info p span {
+  color: #2c4792;
+}
+footer .about {
+  width: 85px;
+}
