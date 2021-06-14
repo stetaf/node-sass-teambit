@@ -14,4 +14,12 @@ nav {
         margin-left: 20px;
         text-decoration: none;
     }
+    .google_signup {
+        border: 1px solid $brown;
+        padding: 10px;
+        border-radius: 5px;
+        &>img { 
+            vertical-align: bottom;
+        }
+    }
 }

@@ -29,6 +29,14 @@ nav a {
   margin-left: 20px;
   text-decoration: none;
 }
+nav .google_signup {
+  border: 1px solid #58402c;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav .google_signup > img {
+  vertical-align: bottom;
+}
 
 /* Main */
 main {
