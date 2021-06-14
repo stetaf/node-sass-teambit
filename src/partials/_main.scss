@@ -1,0 +1,39 @@
+/* Main */
+main {
+    @include p-100;
+    margin: 50px 0;
+    color: $brown;
+    background-image: url('../img/illustration-main.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 85% 0px;
+
+    h1 { 
+        font-size: 40px; 
+        line-height: 60px;
+    }
+
+    h1, p { width: 45%; }
+
+    p { 
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    a { @include deco-none; }
+
+    .sign_up { 
+        @include d-flex;
+        @include a-center;
+        width: 45%;
+        margin: 50px 0 15px 0;
+
+        .signup_btn { 
+            @include blue-btn;
+            @include deco-none;
+            img { width: 20px; }
+        }
+
+        &>span { margin: 0 5px; }
+    }
+}

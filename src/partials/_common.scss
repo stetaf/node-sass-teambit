@@ -1,4 +1,17 @@
 /* Common */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $brown;
+    font-family: 'Oxygen', sans-serif;
+}
+
 @mixin d-flex { 
     display: flex;
 }
@@ -7,4 +20,16 @@
 }
 @mixin p-100 { 
     padding: 0 100px;
+}
+@mixin blue-btn { 
+    background-color: #2c4792;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+@mixin deco-none { 
+    text-decoration: none;
 }
