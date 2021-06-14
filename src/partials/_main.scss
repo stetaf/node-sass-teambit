@@ -3,9 +3,9 @@ main {
     margin: 50px 0;
     color: $brown;
     background-image: url('/../dist/img/illustration-main.jpg');
-    background-size: 40%;
+    background-size: 520px;
     background-repeat: no-repeat;
-    background-position: 85% 0px;
+    background-position: 70% 0px;
 
     .main { 
         @include p-400; 
@@ -17,7 +17,7 @@ main {
         line-height: 60px;
     }
 
-    h1, p { @include w-45; }
+    h1, p { width: 40%; }
 
     p { 
         font-size: 19px;

@@ -43,9 +43,9 @@ main {
   margin: 50px 0;
   color: #58402c;
   background-image: url("/../dist/img/illustration-main.jpg");
-  background-size: 40%;
+  background-size: 520px;
   background-repeat: no-repeat;
-  background-position: 85% 0px;
+  background-position: 70% 0px;
 }
 main .main {
   padding: 0 400px;
@@ -55,7 +55,7 @@ main h1 {
   line-height: 60px;
 }
 main h1, main p {
-  width: 45%;
+  width: 40%;
 }
 main p {
   font-size: 19px;
