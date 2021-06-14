@@ -40,13 +40,15 @@ nav .google_signup > img {
 
 /* Main */
 main {
-  padding: 0 100px;
   margin: 50px 0;
   color: #58402c;
-  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
+  background-image: url("/../dist/img/illustration-main.jpg");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: 85% 0px;
+}
+main .main {
+  padding: 0 100px;
 }
 main h1 {
   font-size: 40px;
@@ -85,4 +87,36 @@ main .sign_up .signup_btn img {
 }
 main .sign_up > span {
   margin: 0 5px;
+}
+main .info {
+  padding: 0 100px;
+  margin: 50px 0;
+  background-color: #ffe7d2;
+}
+main .info h2 {
+  width: 46%;
+  margin: auto;
+  text-align: center;
+}
+main .info .upper, main .info .bottom {
+  text-align: center;
+  padding: 50px 0;
+}
+main .info .upper > div, main .info .bottom > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+main .info .upper > div img, main .info .bottom > div img {
+  height: 100px;
+}
+main .info .upper p, main .info .bottom p {
+  width: 100%;
+  font-size: 14px;
+}
+main .info > h2 {
+  padding-bottom: 50px;
 }

@@ -21,6 +21,9 @@ body {
 @mixin p-100 { 
     padding: 0 100px;
 }
+@mixin m-50 { 
+    margin: 50px 0;
+}
 @mixin blue-btn { 
     background-color: #2c4792;
     border-radius: 5px;

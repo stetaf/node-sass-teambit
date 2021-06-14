@@ -1,12 +1,16 @@
 /* Main */
 main {
-    @include p-100;
     margin: 50px 0;
     color: $brown;
-    background-image: url('../img/illustration-main.jpg');
+    background-image: url('/../dist/img/illustration-main.jpg');
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: 85% 0px;
+
+    .main { 
+        @include p-100; 
+        
+    }
 
     h1 { 
         font-size: 40px; 
@@ -36,4 +40,37 @@ main {
 
         &>span { margin: 0 5px; }
     }
+
+    .info { 
+        @include p-100;
+        @include m-50;
+
+        h2 { 
+            width: 46%;
+            margin: auto;
+            text-align: center;
+        }
+        background-color: $bg_beige;
+        .upper, .bottom { 
+            text-align: center;
+            padding: 50px 0;
+    
+            &>div { 
+                display: flex;
+                align-items: center;
+                width: 100%;
+                text-align: center;
+                justify-content: space-around;
+                @include m-50;
+
+                img { height: 100px; }
+            }
+            p { 
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+        &>h2 { padding-bottom: 50px; }
+    }
+
 }
