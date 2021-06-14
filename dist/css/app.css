@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-  padding: 0 100px;
+  padding: 0 400px;
 }
 
 nav {
@@ -48,7 +48,7 @@ main {
   background-position: 85% 0px;
 }
 main .main {
-  padding: 0 100px;
+  padding: 0 400px;
 }
 main h1 {
   font-size: 40px;
@@ -89,7 +89,7 @@ main .sign_up > span {
   margin: 0 5px;
 }
 main .info {
-  padding: 0 100px;
+  padding: 0 400px;
   margin: 50px 0;
   background-color: #ffe7d2;
 }
@@ -230,8 +230,8 @@ main .join_us > a {
 /* Footer */
 footer {
   display: flex;
-  justify-content: center;
-  padding: 0 100px;
+  justify-content: space-between;
+  padding: 0 400px;
   font-weight: bold;
   padding-bottom: 50px;
 }
@@ -241,6 +241,7 @@ footer a {
 }
 footer div {
   margin: 0 30px;
+  width: 100px;
 }
 footer div h4 {
   font-size: 20px;

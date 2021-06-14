@@ -1,8 +1,8 @@
 /* Footer */
 footer {
     @include d-flex; 
-    justify-content: center;
-    @include p-100;
+    justify-content: space-between;
+    @include p-400;
     font-weight: bold;
     padding-bottom: 50px;
 
@@ -13,6 +13,7 @@ footer {
 
     div { 
         margin: 0 30px; 
+        width: 100px;
         h4 { 
             font-size: 20px; 
             margin-bottom: 35px;

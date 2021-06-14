@@ -8,7 +8,7 @@ main {
     background-position: 85% 0px;
 
     .main { 
-        @include p-100; 
+        @include p-400; 
         
     }
 
@@ -42,7 +42,7 @@ main {
     }
 
     .info { 
-        @include p-100;
+        @include p-400;
         @include m-50;
 
         h2 { 
