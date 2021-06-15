@@ -46,7 +46,7 @@ nav .google_signup > img {
 main {
   margin: 50px 0;
   color: #58402c;
-  background-image: url("/img/illustration-main.jpg");
+  background-image: url("../img/illustration-main.jpg");
   background-size: 520px;
   background-repeat: no-repeat;
   background-position: 70% 0px;
@@ -125,7 +125,7 @@ main .info > h2 {
   padding-bottom: 50px;
 }
 main .features .feedbacks {
-  background-image: url("/../dist/img/employee-feedback.jpg");
+  background-image: url("../img/employee-feedback.jpg");
 }
 main .features .feedbacks, main .features .reviews {
   padding-left: 50%;
@@ -147,7 +147,7 @@ main .features .feedbacks img, main .features .reviews img {
   width: 280px;
 }
 main .features .surveys {
-  background-image: url("/../dist/img/employee-survey.jpg");
+  background-image: url("../img/employee-survey.jpg");
 }
 main .features .surveys, main .features .value {
   padding-left: 25%;
@@ -170,11 +170,11 @@ main .features .surveys img, main .features .value img {
   width: 280px;
 }
 main .features .reviews {
-  background-image: url("/../dist/img/performance-review.jpg");
+  background-image: url("../img/performance-review.jpg");
   margin-top: 40px;
 }
 main .features .value {
-  background-image: url("/../dist/img/employee-survey.jpg");
+  background-image: url("../img/employee-survey.jpg");
 }
 main .join_us {
   background-color: #ffe7d2;

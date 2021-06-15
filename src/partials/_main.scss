@@ -2,7 +2,7 @@
 main {
     margin: 50px 0;
     color: $brown;
-    background-image: url('/../dist/img/illustration-main.jpg');
+    background-image: url('../img/illustration-main.jpg');
     background-size: 520px;
     background-repeat: no-repeat;
     background-position: 70% 0px;
@@ -74,7 +74,7 @@ main {
     }
 
     .features { 
-        .feedbacks { background-image: url('/../dist/img/employee-feedback.jpg') }
+        .feedbacks { background-image: url('../img/employee-feedback.jpg') }
         .feedbacks, .reviews { 
             padding-left: 50%;
             background-size: 36%;
@@ -89,7 +89,7 @@ main {
             }
             img { width: 280px; }
         }
-        .surveys { background-image: url('/../dist/img/employee-survey.jpg'); }
+        .surveys { background-image: url('../img/employee-survey.jpg'); }
         .surveys, .value { 
             padding-left: 25%;
             background-size: 36%;
@@ -106,11 +106,11 @@ main {
             img { width: 280px; }
         }
         .reviews { 
-            background-image: url('/../dist/img/performance-review.jpg'); 
+            background-image: url('../img/performance-review.jpg'); 
             margin-top: 40px;
         }
         .value { 
-            background-image: url('/../dist/img/employee-survey.jpg');
+            background-image: url('../img/employee-survey.jpg');
         }
     }
 
