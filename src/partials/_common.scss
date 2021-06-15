@@ -12,6 +12,8 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+a { color: $brown; }
+
 @mixin d-flex { 
     display: flex;
 }

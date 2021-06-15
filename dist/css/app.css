@@ -12,6 +12,10 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
+a {
+  color: #58402c;
+}
+
 /* Header */
 header {
   padding: 0 400px;
@@ -42,7 +46,7 @@ nav .google_signup > img {
 main {
   margin: 50px 0;
   color: #58402c;
-  background-image: url("/../dist/img/illustration-main.jpg");
+  background-image: url("/img/illustration-main.jpg");
   background-size: 520px;
   background-repeat: no-repeat;
   background-position: 70% 0px;
